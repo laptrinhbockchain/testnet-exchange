@@ -3,8 +3,27 @@
 - Buy MON for Monad Testnet: https://exchange.laptrinhblockchain.net/monad.html
 - Buy ETH for Sepolia: https://exchange.laptrinhblockchain.net/sepolia.html
 
-## How to deploy contract
-Updating...
+## Build contracts
+At the first time, install libraries:
+```
+npm install
+```
+And then, run below command to compile:
+```
+npx hardhat compile
+```
+
+## How to deploy contracts
+Create .env file and update 
+```
+DEPLOYER_PK = <PrivateKey with prefix 0x>
+```
+And then run one of below commands to deploy contract:
+```
+npx hardhat run scripts/deploy_buyer_agent.js --network base
+npx hardhat run scripts/deploy_seller_agent.js --network sepolia
+npx hardhat run scripts/deploy_seller_agent.js --network monad_testnet
+```
 
 ## Testnet Exchange for Sepolia
 Buy ETH for Sepolia simply and easily: https://exchange.laptrinhblockchain.net/sepolia.html
