@@ -2,6 +2,7 @@
 [Testnet Exchange](https://exchange.laptrinhblockchain.net): Buy tokens for testnet simply and easily
 - Buy MON for Monad Testnet: https://exchange.laptrinhblockchain.net/monad.html
 - Buy ETH for Sepolia: https://exchange.laptrinhblockchain.net/sepolia.html
+Please see detail from link: https://laptrinhblockchain.net/testnet-exchange-mua-token-mon-eth-tham-gia-testnet-tren-monad-va-sepolia-don-gian-de-dang-voi-ti-gia-tot-nhat/
 
 ## Build contracts
 At the first time, install libraries:
